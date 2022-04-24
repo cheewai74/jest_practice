@@ -26,6 +26,7 @@ const carStock = [
     'BMW', 
     'Mercedes',
     'Ferrari', 
+    
     'Toyota'
 ];
 
