@@ -1,0 +1,13 @@
+https://jestjs.io/
+
+node -v
+
+npm -v
+npm install --save-dev jest
+
+1. Create a project folder.
+2. npm init -v
+3. npm install --save-dev jest
+4. "scripts": {
+        "test": "jest"
+    }

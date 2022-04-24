@@ -1,0 +1,3 @@
+At Terminal:
+
+npm run test
