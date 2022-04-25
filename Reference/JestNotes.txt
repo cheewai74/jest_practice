@@ -1,0 +1,18 @@
+Tests typically contain these general components:
+1. a describe function is invoked which accepts two arguments:
+2. a string (a description that will appear in the terminal when tests are run, which “describes” the test block)
+3. a callback function which will contain the individual tests..
+4. One (or more) test function which accepts two arguments:
+5. a string describing the action of the specific test,
+6. a callback function containing an expect function and a matcher function.
+7. The expect function accepts the function invocation being tested, and is chained to the matcher which describes the expected results.
+
+The Jest framework has a number of defined matchers, such as:
+1. toBeNull matches only null
+2. toBeUndefined matches only undefined
+3. toBeDefined is the opposite of toBeUndefined
+4. toBeTruthy matches anything that an if statement treats as true
+5. toBeFalsy matches anything that an if statement treats as false
+6. toBeGreaterThan or toBeLessThan for number value comparisons
+7. toMatch accepts a Regex pattern to match a string output
+8. toContain can be used to see if a value is contained in an Array
